@@ -18,6 +18,10 @@ class duplicatechar {
 			}
 		}
 		temp[j++] = arr[size-1];
+		
+//		for(i = 0; i < j; i++) {
+//			arr[i] = temp[i];
+//		}
 		length = j;
 		for(i = 0; i < length; i++) {
 			System.out.print(" "+temp[i]);
