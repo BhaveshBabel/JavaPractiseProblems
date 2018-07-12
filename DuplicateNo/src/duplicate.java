@@ -4,6 +4,7 @@ class duplicate {
 	Scanner sc = new Scanner(System.in);
 	int size=5,length=0;
 	int i;
+	//array given:
 	int arr[] = {2,2,3,4,5};
 //	System.out.println("Enter Array Size : ");
 //	size = sc.nextInt();
