@@ -5,6 +5,7 @@ public class prime {
 		int a1,a2;
 		int i,j;
 		int flag=0;
+		
 		System.out.print("Enter a1 = ");
 		a1 = sc.nextInt();
 		System.out.print("Enter a2 = ");
