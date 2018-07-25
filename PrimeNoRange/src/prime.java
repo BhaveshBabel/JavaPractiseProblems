@@ -5,8 +5,10 @@ public class prime {
 		int a1,a2;
 		int i,j;
 		int flag=0;
+		//Enter starting range:
 		System.out.print("Enter a1 = ");
 		a1 = sc.nextInt();
+		//Enter ending range:
 		System.out.print("Enter a2 = ");
 		a2 = sc.nextInt();
 		for(i = a1; i <= a2; i++)
