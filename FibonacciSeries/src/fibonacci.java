@@ -4,6 +4,7 @@ class fibonacci {
 	Scanner sc = new Scanner(System.in);
 	int n1=0, n2=1, n3, len;
 	int i;
+	
 	System.out.println("Enter Range = ");
 	len = sc.nextInt();
 	System.out.print(n1 +" "+n2);
