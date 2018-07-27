@@ -1,10 +1,11 @@
-public class common {
-	public static void find_smallest(int[] ar1, int[] ar2, int[] ar3, int temp[]) {
-		int i=0, j=0, k=0, l=0;
-		while(i<ar1.length && j<ar2.length && k<ar3.length) {
+public class smallest {
+	public static void find_smallest(int ar1[], int ar2[], int ar3[]) {
+		int i = 0;
+		int j = 0;
+		int k = 0;
+		while(i < ar1.length && j < ar2.length && k < ar3.length) {
 			if(ar1[i] == ar2[j] && ar2[j] == ar3[k]) {
-				temp[i] = ar1[i];
-				System.out.print(temp[i]);
+				System.out.print(ar1[i]+" ");
 				i++;
 				j++;
 				k++;
@@ -22,11 +23,11 @@ public class common {
 }
 	
 	public static void main(String args[]) {
-		int arr1[] = {2,3,1,4};
-		int arr2[] = {1,2,3,5,6};
-		int arr3[] = {3,4,6,7,8,1};
-		int temp[] = new int[30];
-		//int newarr[] = new int[30];
-		find_smallest(arr1, arr2, arr3, temp);
+		//smallest ob = new smallest();
+		int ar1[] = {1,2,4,5,6,7};
+		int ar2[] = {2,4,5,6,7,8};
+		int ar3[] = {2,4,6,8,9,10,12};
+		System.out.print("Common Elements : ");
+		find_smallest(ar1, ar2, ar3);
 		}
 }
