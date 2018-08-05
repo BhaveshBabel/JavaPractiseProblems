@@ -1,4 +1,4 @@
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.Scanner;
 
 public class anagram {
@@ -10,6 +10,7 @@ public class anagram {
 		//checkforAnagram(s1, s2);
 		Boolean res = isAnagram(s1,s2);
 		System.out.println((res) ? "Anagrams"  : "Not anagrams");
+		sc.close();
 	} 
 //	public static void checkforAnagram(String a, String b) {
 //		String a1 = a.replaceAll("\\s", "");
@@ -37,6 +38,7 @@ public class anagram {
 //			}
 //		}
 //	}
+	
 		 static boolean isAnagram(String a, String b) {
 	        Boolean value = false;
 	        if(a != null && b!= null && a.length() == b.length()){
