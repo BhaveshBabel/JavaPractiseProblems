@@ -4,9 +4,9 @@ class duplicatechar {
 		//Scanner sc = new Scanner(System.in);
 		String str = "aabbcaef";
 		char arr[] = str.toCharArray();
-		for(char i:arr) {
-			System.out.println(" "+i);
-		}
+//		for(char i:arr) {
+//			System.out.println(" "+i);
+//		}
 		int size = str.length();
 		System.out.println("size = "+size);
 		char temp[] = new char[size];
@@ -15,7 +15,9 @@ class duplicatechar {
 		for(i = 0; i < size-1; i++) {     
 			if(arr[i] != arr[i+1]) {
 				temp[j++] = arr[i];
+				System.out.println("temp="+temp[j-1]);
 			}
+			
 		}
 		temp[j++] = arr[size-1];
 		
