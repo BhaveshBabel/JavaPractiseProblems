@@ -1,3 +1,4 @@
+//  Mirrored right triangle pattern.
 //     *
 //    **
 //   ***
