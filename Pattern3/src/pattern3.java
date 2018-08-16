@@ -1,4 +1,4 @@
-// // pattern for triangle
+// pattern for triangle
 // 	  	   *
 //        * *
 //       * * *
