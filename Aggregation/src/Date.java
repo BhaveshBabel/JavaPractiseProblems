@@ -13,6 +13,7 @@ public class Date {
 class Person{
 	int id;
 	String name;
+	// creating Date class object
 	Date d ;
 	void setData(int i, String n, int d1, int m, int y) {
 		id = i;
@@ -41,7 +42,9 @@ class Final{
 		M = sc.nextInt();
 		System.out.println("Year = ");
 		Y = sc.nextInt();
+		// creating object of class Person
 		Person p = new Person();
+		// setting the values by calling setData method of class Person
 		p.setData(I, N, D, M, Y);
 		p.printInfo();
 		
