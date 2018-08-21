@@ -13,17 +13,20 @@ public class anagram_string {
 	 static boolean isAnagram(String a, String b) {
 	        Boolean value = false;
 	        if(a != null && b!= null && a.length() == b.length()){
+	        	
+	        	// converting string 'a' to array
 	            char[] arr = a.toLowerCase().toCharArray();
 	            StringBuilder sb = new StringBuilder(b);
 	            int alength = a.length();
-	            System.out.println("Length of a : "+alength);
+	            System.out.println("Length of String 'a' : "+alength);
 	            for(char ch : arr){
 	            	System.out.println(ch);
 	                int index = sb.indexOf("" + ch);
-	                System.out.println(index);
 	                if(index != -1){
+	                	// deleting character from string 'b' if matches with character in array
 	                    sb.deleteCharAt(index);
 	                }
+	                System.out.println("string b : "+sb);
 	            }
 	            value = sb.toString().isEmpty();
 	        }
