@@ -14,8 +14,10 @@ class override{
 		public static void main(String arg[]){
 			override B = new override();
 			child C = new child();
+			override obj = new child();
 			B.print();
 			C.print();
+			obj.print();
 		}
 	}
 
